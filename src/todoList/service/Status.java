@@ -1,4 +1,4 @@
-package tasks.service;
+package todoList.service;
 
 public enum Status {
     NEW,

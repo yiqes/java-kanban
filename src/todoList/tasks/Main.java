@@ -1,6 +1,6 @@
-package tasks.diff;
+package todoList.tasks;
 
-import tasks.service.TaskManager;
+import todoList.service.TaskManager;
 
 import java.util.ArrayList;
 import java.util.HashMap;

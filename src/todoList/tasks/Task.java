@@ -1,11 +1,9 @@
-package tasks.diff;
-import java.util.HashMap;
+package todoList.tasks;
 
 public class Task {
     private int id;
     private String title;
     private String description;
-//    private HashMap<Integer, Object> taskList;
     private String status;
 
     public Task(String title, String description) {

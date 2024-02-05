@@ -1,11 +1,10 @@
-package tasks.service;
-import tasks.diff.Subtask;
-import tasks.diff.Task;
-import tasks.diff.Epic;
+package todoList.service;
+import todoList.tasks.Subtask;
+import todoList.tasks.Task;
+import todoList.tasks.Epic;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.OptionalInt;
 
 public class TaskManager {
     private int counter;
