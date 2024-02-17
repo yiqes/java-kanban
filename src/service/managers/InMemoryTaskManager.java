@@ -1,9 +1,9 @@
-package todoList.managers;
+package service.managers;
 
-import todoList.status.Status;
-import todoList.tasks.Epic;
-import todoList.tasks.Subtask;
-import todoList.tasks.Task;
+import service.status.Status;
+import service.tasks.Epic;
+import service.tasks.Subtask;
+import service.tasks.Task;
 
 import java.util.ArrayList;
 import java.util.HashMap;

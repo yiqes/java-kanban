@@ -1,6 +1,6 @@
-package todoList.history;
+package service.history;
 
-import todoList.tasks.Task;
+import service.tasks.Task;
 
 import java.util.List;
 

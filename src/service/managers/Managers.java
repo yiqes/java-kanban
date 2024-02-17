@@ -1,7 +1,7 @@
-package todoList.managers;
+package service.managers;
 
-import todoList.history.HistoryManager;
-import todoList.history.InMemoryHistoryManager;
+import service.history.HistoryManager;
+import service.history.InMemoryHistoryManager;
 
 public class Managers {
 

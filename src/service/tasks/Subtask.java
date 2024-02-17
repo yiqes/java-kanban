@@ -1,4 +1,4 @@
-package todoList.tasks;
+package service.tasks;
 
 public class Subtask extends Task {
 

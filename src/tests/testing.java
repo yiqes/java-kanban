@@ -1,11 +1,11 @@
-package todoList.tests;
+package tests;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import todoList.managers.InMemoryTaskManager;
-import todoList.status.Status;
-import todoList.tasks.Epic;
-import todoList.tasks.Subtask;
+import service.managers.InMemoryTaskManager;
+import service.status.Status;
+import service.tasks.Epic;
+import service.tasks.Subtask;
 
 import java.util.ArrayList;
 
