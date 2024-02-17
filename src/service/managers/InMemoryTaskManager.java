@@ -37,9 +37,6 @@ public class InMemoryTaskManager implements TaskManager {
         this.epicTaskList = new HashMap<>();
     }
 
-    // ... остальные методы из TaskManager.java
-
-    // ... остальные методы из TaskManager.java
     @Override
     public int getCounter() {
         return counter;
@@ -116,17 +113,8 @@ public class InMemoryTaskManager implements TaskManager {
     public void updateTask(int oldTaskId, Task newTask) {
         taskList.put(oldTaskId, newTask);
     }
-    /*public void updateSubTask(int id, Subtask subtask) {
-    Subtask existingSubtask = subtasks.get(id);
-    if (existingSubtask.getStatus() != Status.DONE) {
-        existingSubtask.setName(subtask.getName());
-        existingSubtask.setDescription(subtask.getDescription());
-        existingSubtask.setStatus(subtask.getStatus());
-    }
-}if (existingSubtask.getStatus().equals(Status.DONE)) {
-            taskManager.updateSubtask(subtask);
-        }
-*/  @Override
+
+    @Override
     public void updateSubTask(int oldTaskId, Subtask newTask) {
         Subtask existingSubtask = subTaskList.get(oldTaskId);
         if (existingSubtask != null && existingSubtask.getStatus().equals(Status.DONE)) {
