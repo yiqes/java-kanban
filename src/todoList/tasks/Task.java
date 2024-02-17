@@ -9,6 +9,7 @@ public class Task {
     public Task(String title, String description) {
         this.title = title;
         this.description = description;
+        this.status = "NEW";
     }
 
     public Task(String title, String description, String status) {
@@ -32,6 +33,10 @@ public class Task {
         return this.id;
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     public void setId(int id) {
         this.id = id;
     }
@@ -44,13 +49,17 @@ public class Task {
         return this.description;
     }
 
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     @Override
     public String toString() {
         return "Task{" +
-                "title=" + title + '\n' +
-                "description=" + description + "\n" +
-                "status=" + status + '\n';
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", status='" + status + '\'' +
+                '}';
     }
 }
-
