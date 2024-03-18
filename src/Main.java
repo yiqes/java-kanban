@@ -40,7 +40,7 @@ public class Main {
         historyManager.remove(task1.getId());
 
         // Print history after removing a task
-        System.out.println("\nHistory after removinga task:");
+        System.out.println("\nHistory after removing task:");
         printHistory(historyManager);
 
         // Remove an epic with 3 subtasks
